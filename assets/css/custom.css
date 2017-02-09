@@ -1,0 +1,334 @@
+/*
+*style for modal header
+*/
+
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-warning {
+	color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #f0ad4e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-danger {
+	color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-primary {
+	color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+/*
+* Backend
+*/
+
+.banner-row{
+    border-top: 1px solid #8EC9D1;
+    padding-top: 10px;
+}
+
+.panel-body-section{
+    padding: 25px;
+}
+
+.asterisk{
+    color: #B8123C;
+}
+
+.product-image{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #939799;
+    border-radius: 5px;
+}
+
+a#btn-add{
+    margin-bottom: 5px;
+}
+
+.option_1, .option_2, .option_3, .option-value{
+    padding: 8px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+.option-value{
+    margin-left: 70px;
+    width: 400px;
+}
+
+.o-value{
+    margin-left: 155px;
+}
+
+.option_field{
+    border: #ccc 1px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 34px;
+    width: 65%;
+
+    padding-left: 9px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.variant-combination{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.variant-combination input[type="text"]{
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 30px;
+}
+
+
+.variant-combination span{
+    color:red;
+}
+
+
+button.add_field{
+    margin-bottom: 5px;
+}
+
+input[name="mapposition"]{
+    border-radius: 5px;
+    height: 35px;
+    width: 500px;
+}
+
+form#map{
+    padding-bottom: 9px;
+}
+
+.bg{
+    background: #F5F5F5;
+}
+
+
+.block{
+    background:#fff;
+    border-radius:1px;
+    padding: 15px 20px;
+    margin-bottom:20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/*
+* use in front view
+*/
+
+.product-head a{
+    color: #FFFFFF;
+}
+
+.product-head a:hover{
+    color: #25AA00;
+}
+
+
+.product-col:hover{
+    position:static;
+    border: 2px solid orange;
+    
+}
+/*.store-banner{
+    position: absolute;
+    z-index: 1;
+   /*max-width: 195%;*/
+
+}
+*/
+
+.store-logo{
+    position: absolute;
+    z-index: 2;
+    float: left;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    clip: rect(10px, 290px, 190px, 10px);
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*.product-store{
+    clear: both;
+
+}*/
+
+
+
+
+/* ==========================================================================
+  
+   ========================================================================== */
+
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin: -100px 10px 0px 50px;
+    z-index: 9;
+    width: 20%; 
+}
+
+@media (max-width:768px)
+{
+    
+.fb-profile-text>h1{
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile
+{
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+    width: 20%; 
+}
+}
+
+.map-store{
+    height: 150px;
+}
+
+/*
+* Notification
+*/
+
+.message{
+    background-size: 40px 40px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+        transparent 75%, transparent);                                      
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+    width: 30%;
+    border: 1px solid;
+    color: #fff;
+    padding: 15px;
+    /*position: fixed;
+    _position: absolute;*/
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    animation: animate-bg 5s linear infinite;
+}
+
+.info{
+     background-color: #4ea5cd;
+     border-color: #3b8eb5;
+}
+.error{
+     background-color: #de4343;
+     border-color: #c43d3d;
+}
+     
+.warning{
+     background-color: #eaaf51;
+     border-color: #d99a36;
+}
+
+.success{
+     background-color: #61b832;
+     border-color: #55a12c;
+}
+
+.message h3{
+     margin: 0 0 5px 0;                                                  
+}
+
+.message p{
+     margin: 0;                                                  
+}
+
+@keyframes animate-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+.price-tage{
+    margin-top: 35px;
+    color: green;
+}
+/*end notification*/
+
+
+.my-group .form-control{
+    width:60%;
+}
+
+/*.search-type{
+    width: 10%;
+    padding-left: 5px;
+}*/
+#kk{
+    width: 500px;
+}
+
+#k1{
+    width: 190px;
+}
+
+.has_error{
+    border-color: red;
+}
